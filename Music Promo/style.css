@@ -1,7 +1,17 @@
 nav ul {
     list-style-type: none;
+    text-align: right;
     display: flex;
     gap: 1rem;
     margin: 0;
     padding: 0;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+nav a:hover {
+    color: #00ffe7;
+    text-decoration: underline;
 }
