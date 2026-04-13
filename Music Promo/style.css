@@ -28,3 +28,12 @@ nav a:hover {
     height: 25vh;
     width: 25%;
 }
+ section {
+    width: 50%;
+    position: absolute;
+    top: 45%;
+}
+body {
+    background-image: url("placeholder.jpg");
+    background-size: cover;
+}
