@@ -1,6 +1,5 @@
 nav ul {
     list-style-type: none;
-    text-align: right;
     display: flex;
     gap: 1rem;
     margin: 0;
@@ -10,8 +9,22 @@ nav a {
     color: white;
     text-decoration: none;
     transition: color 0.3s;
+    list-style: none;
+    line-height: 50px;
+    font-size: 1rem;
+    font-weight: 550;
+    display: block;
+    padding: 5px 35px;
 }
 nav a:hover {
     color: #00ffe7;
     text-decoration: underline;
+}
+.nav li {
+    float: right;
+    list-style: none;
+}
+.container {
+    height: 25vh;
+    width: 25%;
 }
