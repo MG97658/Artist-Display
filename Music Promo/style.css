@@ -104,3 +104,18 @@ iframe:hover {
         padding: 30px 15px;
     }
 }
+.about-section {
+    padding: 80px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+.about-section h2 {
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+.about-section p {
+    margin-bottom: 20px;
+    color: #cccccc;
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
