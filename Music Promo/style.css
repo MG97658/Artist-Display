@@ -132,6 +132,7 @@ iframe:hover {
     align-items: center;
     text-align: center;
     overflow: hidden;
+    animation: slowZoom 20s infinite alternative;
 }
 .hero-overlay {
     position:absolute;
@@ -147,6 +148,7 @@ iframe:hover {
     font-size: 4rem;
     font-weight: 800;
     letter-spacing: 2px;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.3)
 }
 .hero-subtitle {
     margin-top: 10px;
